@@ -1,6 +1,6 @@
-PWD c:\Users\Joline\Desktop\Tex\literature_review
+PWD c:\Users\Joline\Desktop\Tex\literature_review_archipelagos
 INPUT C:\Users\Joline\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Joline\Desktop\Tex\literature_review\main.tex
+INPUT c:\Users\Joline\Desktop\Tex\literature_review_archipelagos\main.tex
 OUTPUT main.log
 INPUT C:\Downloads\MiKTeX\tex\latex\koma-script\scrartcl.cls
 INPUT C:\Downloads\MiKTeX\tex\latex\koma-script\scrartcl.cls
@@ -415,6 +415,11 @@ INPUT C:\Downloads\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Downloads\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Downloads\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 OUTPUT main.bcf
+INPUT main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT C:\Downloads\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Downloads\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Downloads\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm

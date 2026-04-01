@@ -10,9 +10,9 @@
 \usepackage{graphicx}
 \usepackage{pdflscape}
 \usepackage{caption}
+\captionsetup{indent=0pt}
 \usepackage{wrapfig}
 \usepackage[labelfont={bf,sf},font={small},labelsep=colon]{caption}
-\setcapindent{0cm}
 \usepackage[english]{babel}
 \usepackage{siunitx}
 \usepackage{float}
@@ -25,14 +25,12 @@
 \usepackage{upgreek}
 \usepackage{tabularx}
 \usepackage{array}
-\newcommand\todo[1]{\ifworking{\color{red}{\textbf{TODO:}#1}} \else{}\fi}
-\newcommand\stodo[1]{\sidenote{\todo{#1}}}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue]{hyperref}
 \setlength{\parindent}{0em} %damit neue Absätze nicht immer eingerückt werden%
 \usepackage[style=apa]{biblatex}
 %\renewcommand\sectionformat{\mbox{\thesection.\enskip$|$\enskip}}% <- changed
-\addbibresource{Literatur.bib}
+\addbibresource{bib.bib}
 
 %\newcommand*\appendixmore{% see the KOMA-Script documentation
 %  \clearpage
@@ -100,7 +98,7 @@
 %\setcounter{page}{5}
 
 \printbibliography
-%\pagestyle{scrheadings}
+
 
 \include{Anhang}
 \include{Danksagung}
